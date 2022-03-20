@@ -1,5 +1,17 @@
 :root {
-  
+  --primary-dark: hsl(300, 43%, 22%);
+  --primary-light: hsl(333, 80%, 67%);
+  --neutral-dark: hsl(303, 10%, 53%);
+  --neutral-light: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --primary-font: 'Spartan', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  font-size: 15px;
+  text-rendering: optimizeSpeed;
 }
 
 .sr-only {
@@ -16,8 +28,8 @@
 
 .fm-attribution {
   font-size: 11px;
-  text-align: center;
 }
+
 .fm-attribution a {
   color: hsl(228, 45%, 44%);
 }
