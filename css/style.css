@@ -12,5 +12,12 @@
   overflow: hidden;
   padding: 0;
   position: absolute;
-  
+}
+
+.fm-attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.fm-attribution a {
+  color: hsl(228, 45%, 44%);
 }
