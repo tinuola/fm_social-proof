@@ -53,12 +53,20 @@ body {
 @media (min-width: 768px){
   .hero-container {
     flex-direction: row;
+    justify-content: space-between;
     text-align: left;
   }
 }
 
 .slogan-wrapper {
+  flex-basis: 44%;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 990px){
+  .slogan-wrapper {
+    flex-basis: 470px;
+  }
 }
 
 .slogan__title {
@@ -75,9 +83,16 @@ body {
 }
 
 .ratings-wrapper {
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+@media (min-width: 990px){
+  .ratings-wrapper {
+    flex-basis: 600px;
+  }
 }
 
 .rating__label {
@@ -85,6 +100,20 @@ body {
   padding: 1rem 2rem;
   text-align: center;
   border-radius: .5rem;
+}
+
+@media (min-width: 990px){
+  .rating__label {
+    width: 75%;
+  }
+
+  .rating__label:nth-of-type(2) {
+    align-self: center;
+  }
+
+  .rating__label:nth-of-type(3) {
+    align-self: end;
+  }
 }
 
 .rating__stars {
@@ -143,9 +172,8 @@ body {
   font-size: .875rem;
 }
 
-
 .fm-attribution-row {
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-align: right;
 }
 
