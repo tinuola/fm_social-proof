@@ -10,7 +10,7 @@ Users should be able to:
 
 
 ### Solution
-Live Site: [tinuola.github.io/fm-social-proof/](tinuola.github.io/fm-social-proof/)
+Live Site: [tinuola.github.io/fm_social-proof/](tinuola.github.io/fm_social-proof/)
 
 
 ### Tools
